@@ -1,0 +1,13 @@
+
+<div [ngSwitch]="day">
+
+<div *ngSwitchCase="0"><I>Today is Sunday! I am enjoying the sunshine.</I></div>
+<div *ngSwitchCase="1"><I>Today is Monday! I am enjoying the sunshine.</I></div>
+<div *ngSwitchCase="2"><I>Today is Tuesday! I am enjoying the sunshine.</I></div>
+<div *ngSwitchCase="3"><I>Today is Wednesday! I am enjoying the sunshine.</I></div>
+<div *ngSwitchCase="4"><I>Today is Thursday! I am enjoying the sunshine.</I></div>
+<div *ngSwitchCase="5">Today is Friday! I am enjoying the sunshine.</div>
+<div *ngSwitchCase="6">Today is Saturday! I am enjoying the sunshine.</div>
+
+<div *ngSwitchCaseDefault>Invalid value for day! Error!.</div>
+</div>
